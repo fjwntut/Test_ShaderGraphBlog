@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_refraction
+  m_Shader: {fileID: 4800000, guid: dd874d1ff9668234b85efd94b2b64c9b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_B4F890AB:
+        m_Texture: {fileID: 8400000, guid: 47a9a2ae55fc0a046bf16fd9ac8fe3a4, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_D34DDD33_Texture:
+        m_Texture: {fileID: 8400000, guid: 47a9a2ae55fc0a046bf16fd9ac8fe3a4, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1FFD9901: -0.02
+    - Vector1_2958E10F: 0
+    - Vector1_FC586761: -3.3
+    m_Colors: []
